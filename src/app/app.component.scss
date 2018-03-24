@@ -1,0 +1,29 @@
+.demo-header{
+    text-align: center;
+    color: #887d7d;
+}
+.progress-section{
+    margin: 25px;
+    .custom-progressbar{
+        height: 2rem !important;
+        background: #cec8c8; 
+        .progress-bar-danger {
+            background: red;
+        }
+    }
+    .button-section{
+        display: flex; 
+        .bar-selector{
+            width: 150px;
+            margin-right: 25px;
+        }
+        .button-wrapper{
+            width: 50px;
+            height: 35px;
+            background: #ddd;
+            padding: 5px;
+            cursor: pointer;
+            margin-right: 25px;
+        }
+    }
+}
